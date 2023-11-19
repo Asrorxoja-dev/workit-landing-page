@@ -3,3 +3,135 @@
     padding: 0;
     box-sizing: border-box;
 }
+.site-header-hero-wrapper {
+    padding-top: 56px;
+    background-color: #24053E;
+}
+
+.container{
+    max-width: 1440px;
+}
+
+.site-header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 150px;
+    margin-left: 150px;
+     .logo__img {
+        display: block;
+        width: 97px;
+        height: 26px;
+     .logo {
+        display: block;
+        text-decoration: none;
+     }
+     }
+}
+
+.underline-link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: bold;
+
+    color: var(--White, #FFF);
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 177.778% */
+letter-spacing: -0.18px;
+   &:hover{
+    color:#44FFA1;
+   }
+}
+
+
+.site-header__container hr {
+    width: 140px;
+height: 3px;
+background: var(--Eucaplyptus, #44FFA1);
+align-items:center;
+text-align: center;
+}
+
+.hero h1 {
+    color: var(--White, #FFF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+margin-left: auto;
+margin-right: auto;
+margin-top: 60px;
+/* Heading L */
+font-family: Fraunces 144pt;
+font-size: 80px;
+font-style: normal;
+font-weight: 600;
+line-height: 80px; /* 100% */
+width: 635px;
+
+
+}
+
+.hero h1 span hr {
+    width: 270px;
+    margin-left: 275px;
+    height: 3px;
+    background: var(--Eucaplyptus, #44FFA1);
+}
+
+.hero .button h2 {
+    width: 161px;
+height: 61px;
+flex-shrink: 0;
+background: var(--Eucaplyptus, #44FFA1);
+margin-left: auto;
+margin-right: auto;
+padding-top: 13px;
+
+
+
+} 
+
+.hero .button {
+    border: 2px solid transparent;
+   display: flex;
+   align-items:center;
+    text-decoration: none;
+    color: var(--Dark-Purple, #24053E);
+text-align: center;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 177.778% */
+letter-spacing: -0.18px;
+padding: 13px 32px;
+padding-top: 25px;
+margin-bottom: 36px;
+
+  
+}
+
+.hero button:hover {
+    border-color: --Eucaplyptus;
+    background-color:transparent;
+}
+.hero .picture {
+    margin-left: 350px;
+   
+}
+
+.hero picture img {
+    width: 715px;
+height: 427px;
+flex-shrink: 0;
+margin-top: 30px;
+margin-left: 250px;
+
+}
+
+
